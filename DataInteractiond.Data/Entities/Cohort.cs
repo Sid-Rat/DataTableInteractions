@@ -25,6 +25,8 @@ namespace DataInteractiond.Data.Entities
 
     [Required]
     public bool FullTime { get; set; }
+    public virtual ICollection<Enrollment>Enrollments { get; set; } = new List<Enrollment>();
+     public virtual ICollection<InstructorAssignment>InstructorAssignments { get; set; } = new List<InstructorAssignment>();
         
     }
 }

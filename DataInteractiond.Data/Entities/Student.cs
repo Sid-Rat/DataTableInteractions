@@ -22,5 +22,7 @@ namespace DataInteractiond.Data.Entities
 
 
         public DateTime BirthDate { get; set; }
+
+        public virtual ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
     }
 }
