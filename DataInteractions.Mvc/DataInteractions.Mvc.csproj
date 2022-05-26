@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
-    <ProjectReference Include="..\DataInteractiond.Data\DataInteractiond.Data.csproj" />
-    <ProjectReference Include="..\DataInteractiond.Services\DataInteractiond.Services.csproj" />
+    <ProjectReference Include="..\DataInteractions.Data\DataInteractions.Data.csproj" />
+    <ProjectReference Include="..\DataInteractions.Services\DataInteractions.Services.csproj" />
+
   </ItemGroup>
 
   <ItemGroup>

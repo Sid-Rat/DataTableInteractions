@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
-namespace DataInteractiond.Data.Entities
+namespace DataInteractions.Data.Entities
 
 {
     public class InstructorAssignment
@@ -16,7 +16,7 @@ namespace DataInteractiond.Data.Entities
 
         [Key, Column(Order = 1)]
         [ForeignKey(nameof(Instructor))]
-        public int InstructorId { get; set, }
+        public int InstructorId { get; set; }
         public virtual Instructor Instructor { get; set; }
         public virtual ICollection<InstructorAssignment>InstructorAssignments { get; set; } = new List<InstructorAssignment>();
     }

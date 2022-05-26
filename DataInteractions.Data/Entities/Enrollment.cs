@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DataInteractiond.Data.Entities
+namespace DataInteractions.Data.Entities
 {
     public class Enrollment
     {

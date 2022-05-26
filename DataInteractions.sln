@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataInteractiond.Data", "DataInteractiond.Data\DataInteractiond.Data.csproj", "{5892EAE1-8026-43AD-AF3D-1050E0337E64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataInteractions.Data", "DataInteractions.Data\DataInteractions.Data.csproj", "{5892EAE1-8026-43AD-AF3D-1050E0337E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataInteractiond.Models", "DataInteractiond.Models\DataInteractiond.Models.csproj", "{F2D796B0-92B8-42A0-B93A-0E6F1F0B6B47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataInteractions.Models", "DataInteractions.Models\DataInteractions.Models.csproj", "{F2D796B0-92B8-42A0-B93A-0E6F1F0B6B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataInteractiond.Services", "DataInteractiond.Services\DataInteractiond.Services.csproj", "{8D1A189B-B7A1-4526-8E6C-DC33A2317F13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataInteractions.Services", "DataInteractions.Services\DataInteractions.Services.csproj", "{8D1A189B-B7A1-4526-8E6C-DC33A2317F13}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataInteractions.Mvc", "DataInteractions.Mvc\DataInteractions.Mvc.csproj", "{6A121CC6-AA2E-47CA-A683-80768C00DE69}"
 EndProject

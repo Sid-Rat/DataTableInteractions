@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
 
-namespace DataInteractiond.Data.Entities
+
+namespace DataInteractions.Data.Entities
 {
-    [Key]
     public class Cohort
-    {public int Id { get; set; }
+    {
+    [Key]
+    public int Id { get; set; }
 
     [Required]
     public string CourseCode { get; set; }
